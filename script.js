@@ -10,6 +10,7 @@ function writePassword() {
 
 }
 function generatePassword(){
+  var choosenletters = ""
   var uppercaseletters = "ABCD"
   var lowercaseletters = "abcd"
   var numericletters = "1234"
@@ -27,9 +28,18 @@ function generatePassword(){
   var numeric = confirm("Do you want numeric.");
   var special = confirm("Do you want special characters.");
   console.log(uppercase, lowercase, numeric, special);
+  var pw = ""
+
+  for(var i = 0; i < length; i++){
+   
+   var randomIndex = Math.floor(Math.random() * uppercaseletters.length); 
+   var randomElement = uppercaseletters[randomIndex];
+   pw = pw + randomElement
+  
+  }
   
   
-  return "Hello"
+  return pw
 }
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
