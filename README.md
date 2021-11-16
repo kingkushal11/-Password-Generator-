@@ -2,7 +2,7 @@
 
 ## Description 
 
-InIn this project, I worked on a password generator, where the user clicks to generate  password. It asks you how long you want your password to be and it's between. If it's chosen to be less than 8 and more than 128, the message will pop off, saying it's too short or too long. It asks if you want uppercase letters, lowercase letters, it asks if you want numerics, and lastly, it asks if you want special characters.
+In this project, I worked on a password generator, where the user clicks to generate  password. It asks you how long you want your password to be and it's between 8 to 128. If it's chosen to be less than 8 and more than 128, the message will pop off, saying it's too short or too long. It asks if you want uppercase letters, lowercase letters, it asks if you want numerics, and lastly, it asks if you want special characters.
 
 ## User Story
 
