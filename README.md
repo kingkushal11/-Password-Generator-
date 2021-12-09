@@ -35,4 +35,4 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Links
  - https://kingkushal11.github.io/-Password-Generator-/
- - https://github.com/kingkushal11
+ - https://github.com/kingkushal11/-Password-Generator-
